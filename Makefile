@@ -6,7 +6,7 @@ PLATFORMS = android-arm \
 			windows-x86 \
 			windows-x64
 DOCKER = docker
-IMAGE = steeve/cross-compiler
+IMAGE = dmartinpro/cross-compiler
 
 all:
 	$(DOCKER) build -t $(IMAGE):base .

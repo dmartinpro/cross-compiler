@@ -1,5 +1,5 @@
-FROM steeve/cross-compiler:base
-MAINTAINER Steeve Morin "steeve.morin@gmail.com"
+FROM dmartinpro/cross-compiler:base
+MAINTAINER David Martin "dmartinpro@gmail.com"
 
 ENV CROSS_TRIPLE x86_64-apple-darwin14
 ENV CROSS_ROOT /usr/${CROSS_TRIPLE}

@@ -1,5 +1,5 @@
-FROM steeve/cross-compiler:base
-MAINTAINER Steeve Morin "steeve.morin@gmail.com"
+FROM dmartinpro/cross-compiler:base
+MAINTAINER David Martin "dmartinpro@gmail.com"
 
 RUN apt-get update && apt-get -y install \
                         gcc-multilib \

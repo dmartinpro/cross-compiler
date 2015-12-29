@@ -1,9 +1,9 @@
-FROM steeve/cross-compiler:base
-MAINTAINER Steeve Morin "steeve.morin@gmail.com"
+FROM dmartin/cross-compiler:base
+MAINTAINER David Martin "dmartinpro@gmail.com"
 
 RUN apt-get update && apt-get -y --force-yes install \
                         bash \
-                        curl \
+                        curl wget \
                         pkg-config \
                         build-essential \
                         file \
