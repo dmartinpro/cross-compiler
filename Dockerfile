@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:jessie
 MAINTAINER David Martin "dmartinpro@gmail.com"
 
 RUN apt-get update && apt-get -y install \
